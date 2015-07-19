@@ -8,6 +8,7 @@ var app = {
     },
 
     onDeviceReady: function() {
+        navigator.splashscreen.hide();
         document.getElementById("console").innerHTML = "<p>User Agent: " + navigator.userAgent + "</p>";
     }
 };
