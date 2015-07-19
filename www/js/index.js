@@ -44,7 +44,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        receivedElement.innerHTML = "<h1>" + navigator.userAgent + "</h1>";
         console.log('Received Event: ' + id);
-        alert(navigator.userAgent);
     }
 };
